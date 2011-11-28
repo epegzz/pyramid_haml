@@ -1,22 +1,21 @@
-# Pythonic HAML for pyramid
+# HAML support for pyramid
 
-This configures pyramid to allow the use of [HAML](http://haml-lang.com/) as template markup.
+pyramid\_haml configures your pyramid project to allow the use of [HAML](http://haml-lang.com/) as template markup language.
 
-It's based on [PyHAML](http://github.com/mikeboers/PyHAML)
+It uses [PyHAML](http://github.com/mikeboers/PyHAML) as preprocessor for the [Mako](http://www.makotemplates.org/) template renderer.
 
 
 ## Install
 
-1. Use pip to get the package:
+1. Simply use pip to get the latest package:
 
-    pip install pyramid_haml
+        pip install pyramid_haml
 
 2. Adjust your "your\_project/\_\_init\_\_.py" and add this somewhere to your main function:
 
-    config.include("pyramid_haml")
+        config.include("pyramid_haml")
 
-3. Whenever you use a template with '.haml' as suffic it will be rendered via the PyHAML template
-   engine.
+3. Whenever you use a template file with '.haml' as suffix it will be rendered via PyHAML.
 
 ## Documentation
 
