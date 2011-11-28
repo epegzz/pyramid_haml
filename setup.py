@@ -14,10 +14,11 @@ setup(
     
     packages=['pyramid_haml'],
     
-    install_requires=['PyHAML'],
+    requires=['PyHAML'],
     
     classifiers=[
        'Development Status :: 5 - Production/Stable',
+       "Framework :: Pylons",
        'Intended Audience :: Developers',
        'License :: OSI Approved :: BSD License',
        'Natural Language :: English',
