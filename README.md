@@ -11,7 +11,7 @@ It uses [PyHAML](http://github.com/mikeboers/PyHAML) as preprocessor for the [Ma
 
         pip install pyramid_haml
 
-2. Adjust your "your\_project/\_\_init\_\_.py" and add this somewhere to your main function:
+2. Adjust your "your\_project/\_\_init\_\_.py" and add the following line somewhere to in the `main()` function:
 
         config.include("pyramid_haml")
 
