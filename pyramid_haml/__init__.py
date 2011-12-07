@@ -43,7 +43,7 @@ def filter__css(source):
     """
     Use :css in haml files. Yeahy!
     """
-    return '<style type="text/css">\n<!--\n\n\%s\n\n-->\n</style>' % _render_mako(source)
+    return '<style type="text/css">\n<!--\n\n%s\n\n-->\n</style>' % _render_mako(source)
 
 
 def filter__javascript(source):
