@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='pyramid_haml',
-    version='0.1.2',
+    version='1.0.0',
     description='Use HAML templates in your pyramid project.',
     url='http://github.com/epegzz/pyramid_haml',
     
